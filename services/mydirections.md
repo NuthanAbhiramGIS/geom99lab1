@@ -10,8 +10,10 @@ Be creative and use multiple parameters from the API documentation to earn a top
 
 ```
 https://maps.googleapis.com/maps/api/directions/json
-?origin=place_id:ChIJpeyxLF-XyzsRXBhk5vcfEmU&destination=place_id:ChIJWysKtliXyzsRdMYPsV2O4UE
-&travelMode%3A'DRIVING'
+?destination=place_id:ChIJWysKtliXyzsRdMYPsV2O4UE
+&mode=walking
+&avoid=ferries
+&origin=place_id:ChIJpeyxLF-XyzsRXBhk5vcfEmU
 &waypoints=optimize%3Atrue%7C17.415083572947662%2C78.46582514144323%7C17.428923530662928%2C78.46228462589578%7C17.43754226391918%2C78.4688721309208%7C17.429988099352567%2C78.48734718587025%7C17.414940254239472%2C78.48103863063977
 &key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
