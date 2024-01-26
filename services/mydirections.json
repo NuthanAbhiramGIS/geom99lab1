@@ -1,9 +1,43 @@
-\{
+{
    "geocoded_waypoints" : 
    [
       {
          "geocoder_status" : "OK",
          "place_id" : "ChIJpeyxLF-XyzsRXBhk5vcfEmU",
+         "types" : 
+         [
+            "establishment",
+            "park",
+            "point_of_interest"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJW8ydXOOZyzsRJ-d4GCpE5Q8",
+         "types" : 
+         [
+            "premise"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ3cL7OR2ayzsRcY2Sta-mGuQ",
+         "types" : 
+         [
+            "street_address"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJSanSOK-QyzsRFOn9sRjg0Bc",
+         "types" : 
+         [
+            "premise"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJz3bePlSRyzsR3EEBAlWr-I0",
          "types" : 
          [
             "establishment",
@@ -23,40 +57,6 @@
       },
       {
          "geocoder_status" : "OK",
-         "place_id" : "ChIJz3bePlSRyzsR3EEBAlWr-I0",
-         "types" : 
-         [
-            "establishment",
-            "park",
-            "point_of_interest"
-         ]
-      },
-      {
-         "geocoder_status" : "OK",
-         "place_id" : "ChIJSanSOK-QyzsRFOn9sRjg0Bc",
-         "types" : 
-         [
-            "premise"
-         ]
-      },
-      {
-         "geocoder_status" : "OK",
-         "place_id" : "ChIJ3cL7OR2ayzsRcY2Sta-mGuQ",
-         "types" : 
-         [
-            "street_address"
-         ]
-      },
-      {
-         "geocoder_status" : "OK",
-         "place_id" : "ChIJW8ydXOOZyzsRJ-d4GCpE5Q8",
-         "types" : 
-         [
-            "premise"
-         ]
-      },
-      {
-         "geocoder_status" : "OK",
          "place_id" : "ChIJWysKtliXyzsRdMYPsV2O4UE",
          "types" : 
          [
@@ -72,13 +72,13 @@
          {
             "northeast" : 
             {
-               "lat" : 17.4376873,
-               "lng" : 78.4887765
+               "lat" : 17.4376754,
+               "lng" : 78.4881388
             },
             "southwest" : 
             {
-               "lat" : 17.4069666,
-               "lng" : 78.4620094
+               "lat" : 17.408286,
+               "lng" : 78.46208159999999
             }
          },
          "copyrights" : "Map data ©2024",
@@ -87,471 +87,13 @@
             {
                "distance" : 
                {
-                  "text" : "1.4 km",
-                  "value" : 1364
+                  "text" : "1.7 km",
+                  "value" : 1741
                },
                "duration" : 
                {
-                  "text" : "3 mins",
-                  "value" : 194
-               },
-               "end_address" : "CF78+W9R SIDDA PARK, Indira Nagar, Khairtabad, Hyderabad, Telangana 500041, India",
-               "end_location" : 
-               {
-                  "lat" : 17.4150896,
-                  "lng" : 78.46582389999999
-               },
-               "start_address" : "Lumbini Park, New Gate, opposite Secretariat Road, Hussain Sagar, Khairtabad, Hyderabad, Telangana 500004, India",
-               "start_location" : 
-               {
-                  "lat" : 17.4095137,
-                  "lng" : 78.4714949
-               },
-               "steps" : 
-               [
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.1 km",
-                        "value" : 115
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 15
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4084767,
-                        "lng" : 78.4715078
-                     },
-                     "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eNTR Marg\u003c/b\u003e",
-                     "polyline" : 
-                     {
-                        "points" : "mhgiBym}}MF?vAA@?jBA"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4095137,
-                        "lng" : 78.4714949
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.2 km",
-                        "value" : 160
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 36
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4098072,
-                        "lng" : 78.47138559999999
-                     },
-                     "html_instructions" : "Sharp \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eNTR Marg\u003c/b\u003e",
-                     "maneuver" : "turn-sharp-right",
-                     "polyline" : 
-                     {
-                        "points" : "_bgiB}m}}M@TM?{@?aE@"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4084767,
-                        "lng" : 78.4715078
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "1.0 km",
-                        "value" : 953
-                     },
-                     "duration" : 
-                     {
-                        "text" : "2 mins",
-                        "value" : 121
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4145051,
-                        "lng" : 78.4660945
-                     },
-                     "html_instructions" : "Continue onto \u003cb\u003eNTR Marg\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDrive along the lake (on the right for 800m)\u003c/div\u003e",
-                     "polyline" : 
-                     {
-                        "points" : "ijgiBem}}MQ@C?mACo@@y@?K?[?M@MBSDSD_AHqALcCVA?kAJYFKBI?E@MFMFMFKHIHIJGJGLGPCPENGZEXAFEZK~@AHC^AD?JCV?@C\\C~@Ev@C`@?@Al@Ad@CZIp@Oz@?@ARGh@CZAZ@f@BX"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4098072,
-                        "lng" : 78.47138559999999
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.1 km",
-                        "value" : 136
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 22
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4150896,
-                        "lng" : 78.46582389999999
-                     },
-                     "html_instructions" : "Enter the roundabout",
-                     "polyline" : 
-                     {
-                        "points" : "ughiBal|}MB@BDBD@DBF?F?D?FAFAFCDCDCDCBCBCBE@CBE@C@E@K@I?G?IAGCGEGEEEACACAGAGAG"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4145051,
-                        "lng" : 78.4660945
-                     },
-                     "travel_mode" : "DRIVING"
-                  }
-               ],
-               "traffic_speed_entry" : [],
-               "via_waypoint" : []
-            },
-            {
-               "distance" : 
-               {
-                  "text" : "2.7 km",
-                  "value" : 2682
-               },
-               "duration" : 
-               {
-                  "text" : "6 mins",
-                  "value" : 388
-               },
-               "end_address" : "6-3-1146/5, HUSSAIN SAGAR WEST PARK, A/1, PV Narasimha Rao Marg, B.S Maqta, Kundanbagh Colony, Somajiguda, Hyderabad, Telangana 500016, India",
-               "end_location" : 
-               {
-                  "lat" : 17.4289468,
-                  "lng" : 78.4622014
-               },
-               "start_address" : "CF78+W9R SIDDA PARK, Indira Nagar, Khairtabad, Hyderabad, Telangana 500041, India",
-               "start_location" : 
-               {
-                  "lat" : 17.4150896,
-                  "lng" : 78.46582389999999
-               },
-               "steps" : 
-               [
-                  {
-                     "distance" : 
-                     {
-                        "text" : "2.2 km",
-                        "value" : 2190
-                     },
-                     "duration" : 
-                     {
-                        "text" : "5 mins",
-                        "value" : 296
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4327757,
-                        "lng" : 78.46433379999999
-                     },
-                     "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e toward \u003cb\u003ePV Narasimha Rao Marg\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by the lake (on the left)\u003c/div\u003e",
-                     "polyline" : 
-                     {
-                        "points" : "ikhiBkj|}M?CWIQKGCGEKCu@QQC[EQA[AC@U@QBYHc@Tc@Ta@Zm@f@g@^ID[JOFODUFa@@_@?aAE{@E{CYW?Q?WBw@HwE^kETg@B_@JSDSJ[PSN[ZSTQ\\c@xAM`@EJMPOVWX]ZURA?w@^aJpB_@H_@Jq@LY@YBcAByADm@@s@?m@Im@Me@My@[]OeAe@iBaAaAg@_Ae@q@Yo@[oAq@{@e@YOa@Ua@S"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4150896,
-                        "lng" : 78.46582389999999
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.5 km",
-                        "value" : 492
-                     },
-                     "duration" : 
-                     {
-                        "text" : "2 mins",
-                        "value" : 92
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4289468,
-                        "lng" : 78.4622014
-                     },
-                     "html_instructions" : "Make a \u003cb\u003eU-turn\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
-                     "maneuver" : "uturn-right",
-                     "polyline" : 
-                     {
-                        "points" : "{ykiBaa|}MJO^Pd@VJH|@d@n@^b@Tp@^t@^z@b@|@d@lBbAdAb@`A`@l@PFB"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4327757,
-                        "lng" : 78.46433379999999
-                     },
-                     "travel_mode" : "DRIVING"
-                  }
-               ],
-               "traffic_speed_entry" : [],
-               "via_waypoint" : []
-            },
-            {
-               "distance" : 
-               {
-                  "text" : "2.2 km",
-                  "value" : 2213
-               },
-               "duration" : 
-               {
-                  "text" : "5 mins",
-                  "value" : 286
-               },
-               "end_address" : "CFP9+Q9V, PV Narasimha Rao Marg, Patigadda, Begumpet, Hyderabad, Telangana 500016, India",
-               "end_location" : 
-               {
-                  "lat" : 17.4373286,
-                  "lng" : 78.4689135
-               },
-               "start_address" : "6-3-1146/5, HUSSAIN SAGAR WEST PARK, A/1, PV Narasimha Rao Marg, B.S Maqta, Kundanbagh Colony, Somajiguda, Hyderabad, Telangana 500016, India",
-               "start_location" : 
-               {
-                  "lat" : 17.4289468,
-                  "lng" : 78.4622014
-               },
-               "steps" : 
-               [
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.5 km",
-                        "value" : 489
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 63
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4246695,
-                        "lng" : 78.46292380000001
-                     },
-                     "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003ePV Narasimha Rao Marg\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDrive along the lake (on the left)\u003c/div\u003e",
-                     "polyline" : 
-                     {
-                        "points" : "}akiBws{}M^Hj@Jt@@jCIhACd@CbAQr@QJCpDy@bDs@"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4289468,
-                        "lng" : 78.4622014
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "1.7 km",
-                        "value" : 1724
-                     },
-                     "duration" : 
-                     {
-                        "text" : "4 mins",
-                        "value" : 223
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4373286,
-                        "lng" : 78.4689135
-                     },
-                     "html_instructions" : "Make a \u003cb\u003eU-turn\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
-                     "maneuver" : "uturn-right",
-                     "polyline" : 
-                     {
-                        "points" : "egjiBgx{}MHLaJpB_@H_@Jq@LY@YBcAByADm@@s@?m@Im@Me@My@[]OeAe@iBaAaAg@_Ae@q@Yo@[oAq@{@e@YOa@Ua@Sa@UuCaByAaAYSQKMGcBw@QI{@c@w@a@k@[e@_@c@]a@][[Ya@U]KWYq@Oa@W_AIa@E[SeBAE"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4246695,
-                        "lng" : 78.46292380000001
-                     },
-                     "travel_mode" : "DRIVING"
-                  }
-               ],
-               "traffic_speed_entry" : [],
-               "via_waypoint" : []
-            },
-            {
-               "distance" : 
-               {
-                  "text" : "2.7 km",
-                  "value" : 2681
-               },
-               "duration" : 
-               {
-                  "text" : "7 mins",
-                  "value" : 425
-               },
-               "end_address" : "5-4-187/1, PV Narasimha Rao Marg, Karbala Maidan, Rani Gunj, Secunderabad, Hyderabad, Telangana 500003, India",
-               "end_location" : 
-               {
-                  "lat" : 17.4299683,
-                  "lng" : 78.48745509999999
-               },
-               "start_address" : "CFP9+Q9V, PV Narasimha Rao Marg, Patigadda, Begumpet, Hyderabad, Telangana 500016, India",
-               "start_location" : 
-               {
-                  "lat" : 17.4373286,
-                  "lng" : 78.4689135
-               },
-               "steps" : 
-               [
-                  {
-                     "distance" : 
-                     {
-                        "text" : "2.4 km",
-                        "value" : 2352
-                     },
-                     "duration" : 
-                     {
-                        "text" : "6 mins",
-                        "value" : 338
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4288878,
-                        "lng" : 78.4869123
-                     },
-                     "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e on \u003cb\u003ePV Narasimha Rao Marg\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by the lake (on the right)\u003c/div\u003e",
-                     "polyline" : 
-                     {
-                        "points" : "ivliBu}|}MEg@m@_FIkAE_AAe@Aq@Be@Fu@Fm@Lu@Jc@^cA^{@t@mAp@{@|@cAj@i@n@e@j@Yl@]l@g@JYNo@X{ANu@BO?]@m@CkABY?eA?o@?e@?a@?KDc@BUBMPiAT_Bv@{Df@mCh@mCn@uDh@eC^qARe@Tk@DId@y@TWtAcBlAqAX[^c@X[Z]t@s@t@o@X[^MNINERIXIVERCPARAR?R?ZBP@NBB?p@P"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4373286,
-                        "lng" : 78.4689135
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.1 km",
-                        "value" : 106
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 36
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4285771,
-                        "lng" : 78.48786050000001
-                     },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eNH 44\u003c/b\u003e",
-                     "maneuver" : "turn-left",
-                     "polyline" : 
-                     {
-                        "points" : "qakiBen`~Mp@sCJi@"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4288878,
-                        "lng" : 78.4869123
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.2 km",
-                        "value" : 150
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 33
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4299005,
-                        "lng" : 78.4881388
-                     },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eNH 44\u003c/b\u003e",
-                     "maneuver" : "turn-left",
-                     "polyline" : 
-                     {
-                        "points" : "s_kiBct`~MSGOE[GIAiBSsAK"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4285771,
-                        "lng" : 78.48786050000001
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "73 m",
-                        "value" : 73
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 18
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4299683,
-                        "lng" : 78.48745509999999
-                     },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Sundaram Motors (on the right)\u003c/div\u003e",
-                     "maneuver" : "turn-left",
-                     "polyline" : 
-                     {
-                        "points" : "{gkiB{u`~MG~@EfA"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4299005,
-                        "lng" : 78.4881388
-                     },
-                     "travel_mode" : "DRIVING"
-                  }
-               ],
-               "traffic_speed_entry" : [],
-               "via_waypoint" : []
-            },
-            {
-               "distance" : 
-               {
-                  "text" : "2.9 km",
-                  "value" : 2888
-               },
-               "duration" : 
-               {
-                  "text" : "10 mins",
-                  "value" : 570
+                  "text" : "24 mins",
+                  "value" : 1453
                },
                "end_address" : "604/B, Lower Tank Bund Rd, beside to snow world, Lower Tank Bund, Kavadiguda, Hyderabad, Telangana 500029, India",
                "end_location" : 
@@ -559,105 +101,163 @@
                   "lat" : 17.4148902,
                   "lng" : 78.4808046
                },
-               "start_address" : "5-4-187/1, PV Narasimha Rao Marg, Karbala Maidan, Rani Gunj, Secunderabad, Hyderabad, Telangana 500003, India",
+               "start_address" : "Lumbini Park, New Gate, opposite Secretariat Road, Hussain Sagar, Khairtabad, Hyderabad, Telangana 500004, India",
                "start_location" : 
                {
-                  "lat" : 17.4299683,
-                  "lng" : 78.48745509999999
+                  "lat" : 17.4096702,
+                  "lng" : 78.47246539999999
                },
                "steps" : 
                [
                   {
                      "distance" : 
                      {
-                        "text" : "73 m",
-                        "value" : 73
+                        "text" : "0.4 km",
+                        "value" : 420
                      },
                      "duration" : 
                      {
-                        "text" : "1 min",
-                        "value" : 10
+                        "text" : "6 mins",
+                        "value" : 349
                      },
                      "end_location" : 
                      {
-                        "lat" : 17.4299005,
-                        "lng" : 78.4881388
+                        "lat" : 17.408286,
+                        "lng" : 78.473654
                      },
-                     "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e toward \u003cb\u003eNH 44\u003c/b\u003e",
+                     "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e toward \u003cb\u003eNH 44\u003c/b\u003e",
                      "polyline" : 
                      {
-                        "points" : "ihkiBsq`~MDgAF_A"
+                        "points" : "migiB}s}}MC?OIIAQFQBE?EAEEGGIGAC[g@QUS]GIAG?E?E@E@EBEDEVWJIPMHEHC\\INCNA~@QJ?J@lANPBL@@?L@nABJ?"
                      },
                      "start_location" : 
                      {
-                        "lat" : 17.4299683,
-                        "lng" : 78.48745509999999
+                        "lat" : 17.4096702,
+                        "lng" : 78.47246539999999
                      },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "91 m",
-                        "value" : 91
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 24
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4307143,
-                        "lng" : 78.48819309999999
-                     },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e after Sundaram Motors (on the left)",
-                     "maneuver" : "turn-left",
-                     "polyline" : 
-                     {
-                        "points" : "{gkiB{u`~MaDI"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4299005,
-                        "lng" : 78.4881388
-                     },
-                     "travel_mode" : "DRIVING"
+                     "travel_mode" : "WALKING"
                   },
                   {
                      "distance" : 
                      {
                         "text" : "0.2 km",
-                        "value" : 157
+                        "value" : 169
                      },
                      "duration" : 
                      {
-                        "text" : "1 min",
-                        "value" : 59
+                        "text" : "2 mins",
+                        "value" : 131
                      },
                      "end_location" : 
                      {
-                        "lat" : 17.4306312,
-                        "lng" : 78.4867347
+                        "lat" : 17.4087896,
+                        "lng" : 78.47511919999999
                      },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e after Sundaram Motors (on the left)",
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eNH 44\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by the lake (on the left in 83m)\u003c/div\u003e",
                      "maneuver" : "turn-left",
                      "polyline" : 
                      {
-                        "points" : "}lkiBev`~M?HAf@?fACj@An@VlA"
+                        "points" : "y`giBi{}}MI{AGe@EWAIKa@M[M]a@e@"
                      },
                      "start_location" : 
                      {
-                        "lat" : 17.4307143,
-                        "lng" : 78.48819309999999
+                        "lat" : 17.408286,
+                        "lng" : 78.473654
                      },
-                     "travel_mode" : "DRIVING"
+                     "travel_mode" : "WALKING"
                   },
                   {
                      "distance" : 
                      {
-                        "text" : "0.2 km",
-                        "value" : 202
+                        "text" : "0.4 km",
+                        "value" : 434
+                     },
+                     "duration" : 
+                     {
+                        "text" : "6 mins",
+                        "value" : 377
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4116176,
+                        "lng" : 78.4775715
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e3rd\u003c/b\u003e exit onto \u003cb\u003eBharath Sevashram Marg\u003c/b\u003e",
+                     "maneuver" : "roundabout-left",
+                     "polyline" : 
+                     {
+                        "points" : "}cgiBod~}M[OCKAK?I?C?E?K@IBGBCDGu@q@y@i@]Sc@WiAo@}A{@i@]{@c@MGMIYUm@e@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4087896,
+                        "lng" : 78.47511919999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "87 m",
+                        "value" : 87
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 67
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4112511,
+                        "lng" : 78.4782926
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eLower Tank Bund Rd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "sugiBys~}Md@_AN]Rq@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4116176,
+                        "lng" : 78.4775715
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 129
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 126
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4122941,
+                        "lng" : 78.47801919999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eLower Tank Bund Rd\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "isgiBix~}M{AKMAA?K@I@E@A?CBCB_@X]Z"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4112511,
+                        "lng" : 78.4782926
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "49 m",
+                        "value" : 49
                      },
                      "duration" : 
                      {
@@ -666,223 +266,49 @@
                      },
                      "end_location" : 
                      {
-                        "lat" : 17.4288878,
-                        "lng" : 78.4869123
+                        "lat" : 17.4126637,
+                        "lng" : 78.478269
                      },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003ePV Narasimha Rao Marg\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDrive along the lake (on the right)\u003c/div\u003e",
-                     "maneuver" : "turn-left",
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eTelugu Talli Flyover\u003c/b\u003e",
+                     "maneuver" : "turn-right",
                      "polyline" : 
                      {
-                        "points" : "mlkiBam`~M^MNINERIXIVERCPARAR?R?ZBP@NBB?p@P"
+                        "points" : "yygiBsv~}MUGs@i@"
                      },
                      "start_location" : 
                      {
-                        "lat" : 17.4306312,
-                        "lng" : 78.4867347
+                        "lat" : 17.4122941,
+                        "lng" : 78.47801919999999
                      },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.1 km",
-                        "value" : 106
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 36
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4285771,
-                        "lng" : 78.48786050000001
-                     },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eNH 44\u003c/b\u003e",
-                     "maneuver" : "turn-left",
-                     "polyline" : 
-                     {
-                        "points" : "qakiBen`~Mp@sCJi@"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4288878,
-                        "lng" : 78.4869123
-                     },
-                     "travel_mode" : "DRIVING"
+                     "travel_mode" : "WALKING"
                   },
                   {
                      "distance" : 
                      {
                         "text" : "0.4 km",
-                        "value" : 399
+                        "value" : 369
                      },
                      "duration" : 
                      {
-                        "text" : "1 min",
-                        "value" : 78
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4254481,
-                        "lng" : 78.48634899999999
-                     },
-                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at the 1st cross street onto \u003cb\u003eNH 44\u003c/b\u003e",
-                     "maneuver" : "turn-right",
-                     "polyline" : 
-                     {
-                        "points" : "s_kiBct`~MBSVJd@RXNLDv@^h@ThCnApBfAd@PPHj@NdAP"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4285771,
-                        "lng" : 78.48786050000001
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.3 km",
-                        "value" : 252
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 60
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4250274,
-                        "lng" : 78.4886794
-                     },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eKavadiguda Road\u003c/b\u003e",
-                     "maneuver" : "turn-left",
-                     "polyline" : 
-                     {
-                        "points" : "aljiBuj`~MTmBf@_FJcAH_A"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4254481,
-                        "lng" : 78.48634899999999
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.1 km",
-                        "value" : 108
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 32
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.42435,
-                        "lng" : 78.4881826
-                     },
-                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at \u003cb\u003eRanigunj Street Number 2\u003c/b\u003e",
-                     "maneuver" : "turn-right",
-                     "polyline" : 
-                     {
-                        "points" : "mijiBgy`~M@SfA|@`@^ZX"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4250274,
-                        "lng" : 78.4886794
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.2 km",
-                        "value" : 229
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 37
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.422715,
-                        "lng" : 78.4868932
-                     },
-                     "html_instructions" : "Continue straight",
-                     "maneuver" : "straight",
-                     "polyline" : 
-                     {
-                        "points" : "eejiBcv`~Mv@v@h@h@XVt@n@FFJHFDDBHDZLHD@?~@`@"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.42435,
-                        "lng" : 78.4881826
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.6 km",
-                        "value" : 635
-                     },
-                     "duration" : 
-                     {
-                        "text" : "2 mins",
-                        "value" : 94
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4193404,
-                        "lng" : 78.4833661
-                     },
-                     "html_instructions" : "Continue onto \u003cb\u003eLower Tank Bund Rd\u003c/b\u003e",
-                     "polyline" : 
-                     {
-                        "points" : "_{iiBan`~M\\VHJDJ@DBTDp@Bh@?NBd@?DBFHPJNLJ`@Np@NHBtAXf@LxA`@`@Hh@HRDZFPBXFD@JDLBLDFBHDNHPLFFFFLd@@HBP@F?N?HCTETa@t@"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.422715,
-                        "lng" : 78.4868932
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.6 km",
-                        "value" : 552
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 66
+                        "text" : "5 mins",
+                        "value" : 298
                      },
                      "end_location" : 
                      {
                         "lat" : 17.4154004,
                         "lng" : 78.48023239999999
                      },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eLower Tank Bund Rd\u003c/b\u003e",
-                     "maneuver" : "turn-left",
+                     "html_instructions" : "Continue onto \u003cb\u003eLower Tank Bund Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Sri Kanakala Katta Maisamma Devalayam (on the left in 22m)\u003c/div\u003e",
                      "polyline" : 
                      {
-                        "points" : "{eiiBax_~MHR@DDBBD@@ZXRPTPZTLHjBrA~@p@tDdCl@d@^ZfBpAlAx@d@T"
+                        "points" : "c|giBex~}MMI}@o@{@i@oDwB]U_B_Ai@]KIw@m@"
                      },
                      "start_location" : 
                      {
-                        "lat" : 17.4193404,
-                        "lng" : 78.4833661
+                        "lat" : 17.4126637,
+                        "lng" : 78.478269
                      },
-                     "travel_mode" : "DRIVING"
+                     "travel_mode" : "WALKING"
                   },
                   {
                      "distance" : 
@@ -893,15 +319,15 @@
                      "duration" : 
                      {
                         "text" : "1 min",
-                        "value" : 34
+                        "value" : 65
                      },
                      "end_location" : 
                      {
                         "lat" : 17.4148902,
                         "lng" : 78.4808046
                      },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
-                     "maneuver" : "turn-left",
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-right",
                      "polyline" : 
                      {
                         "points" : "gmhiBmd_~MrAeBDCDEDA"
@@ -911,7 +337,7 @@
                         "lat" : 17.4154004,
                         "lng" : 78.48023239999999
                      },
-                     "travel_mode" : "DRIVING"
+                     "travel_mode" : "WALKING"
                   }
                ],
                "traffic_speed_entry" : [],
@@ -920,19 +346,19 @@
             {
                "distance" : 
                {
-                  "text" : "3.5 km",
-                  "value" : 3456
+                  "text" : "2.1 km",
+                  "value" : 2092
                },
                "duration" : 
                {
-                  "text" : "9 mins",
-                  "value" : 522
+                  "text" : "30 mins",
+                  "value" : 1813
                },
-               "end_address" : "Hussain Sagar, Khairtabad, Hyderabad, Telangana 500022, India",
+               "end_address" : "5-4-187/1, PV Narasimha Rao Marg, Karbala Maidan, Rani Gunj, Secunderabad, Hyderabad, Telangana 500003, India",
                "end_location" : 
                {
-                  "lat" : 17.4098163,
-                  "lng" : 78.47371389999999
+                  "lat" : 17.4299683,
+                  "lng" : 78.48745509999999
                },
                "start_address" : "604/B, Lower Tank Bund Rd, beside to snow world, Lower Tank Bund, Kavadiguda, Hyderabad, Telangana 500029, India",
                "start_location" : 
@@ -951,7 +377,7 @@
                      "duration" : 
                      {
                         "text" : "1 min",
-                        "value" : 29
+                        "value" : 75
                      },
                      "end_location" : 
                      {
@@ -968,239 +394,785 @@
                         "lat" : 17.4148902,
                         "lng" : 78.4808046
                      },
-                     "travel_mode" : "DRIVING"
+                     "travel_mode" : "WALKING"
                   },
                   {
                      "distance" : 
                      {
-                        "text" : "0.4 km",
-                        "value" : 360
+                        "text" : "0.6 km",
+                        "value" : 552
                      },
                      "duration" : 
                      {
-                        "text" : "1 min",
-                        "value" : 67
+                        "text" : "8 mins",
+                        "value" : 455
                      },
                      "end_location" : 
                      {
-                        "lat" : 17.4127303,
-                        "lng" : 78.4783156
+                        "lat" : 17.4193404,
+                        "lng" : 78.4833661
                      },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eLower Tank Bund Rd\u003c/b\u003e",
-                     "maneuver" : "turn-left",
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eLower Tank Bund Rd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
                      "polyline" : 
                      {
-                        "points" : "gmhiBmd_~Mv@l@JHh@\\~A~@\\TnDvBz@h@|@n@"
+                        "points" : "gmhiBmd_~Me@UmAy@gBqA_@[m@e@uDeC_Aq@kBsAMI[UUQSQ][GGCGIS"
                      },
                      "start_location" : 
                      {
                         "lat" : 17.4154004,
                         "lng" : 78.48023239999999
                      },
-                     "travel_mode" : "DRIVING"
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "8 m",
+                        "value" : 8
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 12
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4193806,
+                        "lng" : 78.48329889999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eLower Tank Bund Rd\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "{eiiBax_~MGL"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4193404,
+                        "lng" : 78.4833661
+                     },
+                     "travel_mode" : "WALKING"
                   },
                   {
                      "distance" : 
                      {
                         "text" : "0.3 km",
-                        "value" : 342
+                        "value" : 279
                      },
                      "duration" : 
                      {
-                        "text" : "1 min",
-                        "value" : 47
+                        "text" : "4 mins",
+                        "value" : 250
                      },
                      "end_location" : 
                      {
-                        "lat" : 17.4118883,
-                        "lng" : 78.4814112
+                        "lat" : 17.4211271,
+                        "lng" : 78.48503789999999
                      },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e after Sri Kanakala Katta Maisamma Devalayam (on the right)",
-                     "maneuver" : "turn-left",
+                     "html_instructions" : "Sharp \u003cb\u003eright\u003c/b\u003e to stay on \u003cb\u003eLower Tank Bund Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Sri Jagdish Mandir (on the left in 170m)\u003c/div\u003e",
+                     "maneuver" : "turn-sharp-right",
                      "polyline" : 
                      {
-                        "points" : "q|giBox~}MLaAP_AVqADS\\mBBMH_@Jg@F_@FUFa@Lu@Jo@"
+                        "points" : "cfiiBsw_~MCUUe@i@y@SYo@_A]a@SYGIIGGGMIaAUy@U"
                      },
                      "start_location" : 
                      {
-                        "lat" : 17.4127303,
-                        "lng" : 78.4783156
+                        "lat" : 17.4193806,
+                        "lng" : 78.48329889999999
                      },
-                     "travel_mode" : "DRIVING"
+                     "travel_mode" : "WALKING"
                   },
                   {
                      "distance" : 
                      {
-                        "text" : "0.4 km",
-                        "value" : 353
+                        "text" : "68 m",
+                        "value" : 68
                      },
                      "duration" : 
                      {
                         "text" : "1 min",
-                        "value" : 56
+                        "value" : 89
                      },
                      "end_location" : 
                      {
-                        "lat" : 17.4126637,
-                        "lng" : 78.478269
+                        "lat" : 17.42146,
+                        "lng" : 78.48449979999999
                      },
-                     "html_instructions" : "Make a \u003cb\u003eU-turn\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by G V S Towers (on the left in 300m)\u003c/div\u003e",
-                     "maneuver" : "uturn-right",
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eLower Tank Bund Rd\u003c/b\u003e",
+                     "maneuver" : "turn-left",
                      "polyline" : 
                      {
-                        "points" : "iwgiByk_~MNFGn@YjBKd@Kf@IVERmAnGKl@EV"
+                        "points" : "aqiiBob`~M_@x@GHU\\CH"
                      },
                      "start_location" : 
                      {
-                        "lat" : 17.4118883,
-                        "lng" : 78.4814112
+                        "lat" : 17.4211271,
+                        "lng" : 78.48503789999999
                      },
-                     "travel_mode" : "DRIVING"
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.0 km",
+                        "value" : 1028
+                     },
+                     "duration" : 
+                     {
+                        "text" : "14 mins",
+                        "value" : 860
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4299005,
+                        "lng" : 78.4881388
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eNH 44\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by the lake (on the left in 98m)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "csiiBc_`~McBcAgAo@OMeC{Ag@Uk@Q[G]GeAIaDe@}AWMCiAU]K_@MMG{@]qAu@wAs@i@WqB_AYM]O[GSGOE[GIAiBSsAK"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.42146,
+                        "lng" : 78.48449979999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "73 m",
+                        "value" : 73
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 72
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4299683,
+                        "lng" : 78.48745509999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Sundaram Motors (on the right in 25m)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "{gkiB{u`~MG~@EfA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4299005,
+                        "lng" : 78.4881388
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "2.7 km",
+                  "value" : 2664
+               },
+               "duration" : 
+               {
+                  "text" : "36 mins",
+                  "value" : 2166
+               },
+               "end_address" : "CFP9+Q9V, PV Narasimha Rao Marg, Patigadda, Begumpet, Hyderabad, Telangana 500016, India",
+               "end_location" : 
+               {
+                  "lat" : 17.4373286,
+                  "lng" : 78.4689135
+               },
+               "start_address" : "5-4-187/1, PV Narasimha Rao Marg, Karbala Maidan, Rani Gunj, Secunderabad, Hyderabad, Telangana 500003, India",
+               "start_location" : 
+               {
+                  "lat" : 17.4299683,
+                  "lng" : 78.48745509999999
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "73 m",
+                        "value" : 73
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 57
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4299005,
+                        "lng" : 78.4881388
+                     },
+                     "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e toward \u003cb\u003eNH 44\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ihkiBsq`~MDgAF_A"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4299683,
+                        "lng" : 78.48745509999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 150
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 120
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4285771,
+                        "lng" : 78.48786050000001
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e after Sundaram Motors (on the left)",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "{gkiB{u`~MrAJhBRH@ZFNDRF"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4299005,
+                        "lng" : 78.4881388
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 118
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 110
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4289164,
+                        "lng" : 78.4868022
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at \u003cb\u003eHyderabad - Mancherial Hwy\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eHyderabad - Ramagundam Rd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eKarimnagar - Hyderabad Hwy\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRashtrapati Rd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eUtkoor - Mogdumpur Rd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "s_kiBct`~MKh@q@rCET"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4285771,
+                        "lng" : 78.48786050000001
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "2.1 km",
+                        "value" : 2072
+                     },
+                     "duration" : 
+                     {
+                        "text" : "28 mins",
+                        "value" : 1673
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4375614,
+                        "lng" : 78.4711279
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003ePV Narasimha Rao Marg\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eWalk along the lake (on the left for 1 km)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "wakiBom`~Mu@Mc@EUCOAMA]?_@B[FYHc@N_@Tm@b@g@f@e@d@_AbAu@v@}@|@[XOXKNQRQRORQXa@p@GJOVYr@K\\Ux@e@|BUtA]fBg@fCi@nCy@|D[lBM~@AJANAZ?L?h@?d@?l@AbAAX?lAAr@A\\AHCVc@dCSn@KVg@j@c@Z]^k@n@gA~A{@jA_@n@gAxBIPm@xBa@dBQb@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4289164,
+                        "lng" : 78.4868022
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "13 m",
+                        "value" : 13
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 16
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4376754,
+                        "lng" : 78.47111869999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003ePV Narasimha Rao Marg\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "wwliBqk}}MW@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4375614,
+                        "lng" : 78.4711279
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 238
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 190
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4373286,
+                        "lng" : 78.4689135
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003ePV Narasimha Rao Marg\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by the lake (on the left in 130m)\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "oxliBok}}M@d@D~@HjAl@~EDf@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4376754,
+                        "lng" : 78.47111869999999
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "1.2 km",
+                  "value" : 1221
+               },
+               "duration" : 
+               {
+                  "text" : "16 mins",
+                  "value" : 986
+               },
+               "end_address" : "6-3-1146/5, HUSSAIN SAGAR WEST PARK, A/1, PV Narasimha Rao Marg, B.S Maqta, Kundanbagh Colony, Somajiguda, Hyderabad, Telangana 500016, India",
+               "end_location" : 
+               {
+                  "lat" : 17.4289468,
+                  "lng" : 78.4622014
+               },
+               "start_address" : "CFP9+Q9V, PV Narasimha Rao Marg, Patigadda, Begumpet, Hyderabad, Telangana 500016, India",
+               "start_location" : 
+               {
+                  "lat" : 17.4373286,
+                  "lng" : 78.4689135
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 130
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 99
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4370238,
+                        "lng" : 78.46773519999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003ePV Narasimha Rao Marg\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ivliBu}|}M@DRdBDZH`@V~@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4373286,
+                        "lng" : 78.4689135
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "9 m",
+                        "value" : 9
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 12
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4369547,
+                        "lng" : 78.4677774
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003ePV Narasimha Rao Marg\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "ktliBkv|}MLG"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4370238,
+                        "lng" : 78.46773519999999
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.1 km",
+                        "value" : 1082
+                     },
+                     "duration" : 
+                     {
+                        "text" : "15 mins",
+                        "value" : 875
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4289468,
+                        "lng" : 78.4622014
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003ePV Narasimha Rao Marg\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by the lake (on the left in 850m)\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "}sliBsv|}MRb@Zp@T`@Vf@p@r@h@`@p@h@j@\\vAt@jCpAzBtALFnAn@v@b@PJHDPJPJ^Pd@VJH|@d@n@^b@Tp@^t@^z@b@|@d@lBbAdAb@`A`@l@PFB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4369547,
+                        "lng" : 78.4677774
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "1.7 km",
+                  "value" : 1705
+               },
+               "duration" : 
+               {
+                  "text" : "23 mins",
+                  "value" : 1371
+               },
+               "end_address" : "CF78+W9R SIDDA PARK, Indira Nagar, Khairtabad, Hyderabad, Telangana 500041, India",
+               "end_location" : 
+               {
+                  "lat" : 17.4150933,
+                  "lng" : 78.4658439
+               },
+               "start_address" : "6-3-1146/5, HUSSAIN SAGAR WEST PARK, A/1, PV Narasimha Rao Marg, B.S Maqta, Kundanbagh Colony, Somajiguda, Hyderabad, Telangana 500016, India",
+               "start_location" : 
+               {
+                  "lat" : 17.4289468,
+                  "lng" : 78.4622014
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.5 km",
+                        "value" : 489
+                     },
+                     "duration" : 
+                     {
+                        "text" : "7 mins",
+                        "value" : 390
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4246695,
+                        "lng" : 78.46292380000001
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003ePV Narasimha Rao Marg\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eWalk along the lake (on the left)\u003c/div\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "}akiBws{}M^Hj@Jt@@jCIhACd@CbAQr@QJCpDy@bDs@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4289468,
+                        "lng" : 78.4622014
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "9 m",
+                        "value" : 9
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 13
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4246226,
+                        "lng" : 78.4628501
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003ePV Narasimha Rao Marg\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "egjiBgx{}MHL"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4246695,
+                        "lng" : 78.46292380000001
+                     },
+                     "travel_mode" : "WALKING"
                   },
                   {
                      "distance" : 
                      {
                         "text" : "1.2 km",
-                        "value" : 1199
+                        "value" : 1207
                      },
                      "duration" : 
                      {
-                        "text" : "2 mins",
-                        "value" : 131
+                        "text" : "16 mins",
+                        "value" : 968
                      },
                      "end_location" : 
                      {
-                        "lat" : 17.4077956,
-                        "lng" : 78.4693132
+                        "lat" : 17.4150933,
+                        "lng" : 78.4658439
                      },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eTelugu Talli Flyover\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by the lake (on the right in 350m)\u003c/div\u003e",
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003ePV Narasimha Rao Marg\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eWalk along the lake (on the left for 220m)\u003c/div\u003e",
                      "maneuver" : "turn-left",
                      "polyline" : 
                      {
-                        "points" : "c|giBex~}Mr@h@TF^X\\TXT@@d@\\PPRPRPLJB@JHNFRJTJx@d@rCxAl@f@HFNFPHNLPNPLRPFDTPNNNPNPLPLPHNHNHLHTHVDNF^Fh@BZHbAHjAJrADb@D^Hx@JjADz@Dx@@v@Br@@pAChB?@?LGzA"
+                        "points" : "{fjiByw{}Mx@_@TS\\[VYNWLQDKLa@b@yAP]RUZ[ROZQRKRE^Kf@CjEUvE_@v@IVCP?V?zCXz@D`AD^?`@ATGNENGZKHEf@_@l@g@`@[b@Ub@UXIPCTABAZ@P@ZDPBt@PJBFDFBPJVH"
                      },
                      "start_location" : 
                      {
-                        "lat" : 17.4126637,
-                        "lng" : 78.478269
+                        "lat" : 17.4246226,
+                        "lng" : 78.4628501
                      },
-                     "travel_mode" : "DRIVING"
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "1.2 km",
+                  "value" : 1228
+               },
+               "duration" : 
+               {
+                  "text" : "17 mins",
+                  "value" : 1015
+               },
+               "end_address" : "Hussain Sagar, Khairtabad, Hyderabad, Telangana 500022, India",
+               "end_location" : 
+               {
+                  "lat" : 17.4101027,
+                  "lng" : 78.47364109999999
+               },
+               "start_address" : "CF78+W9R SIDDA PARK, Indira Nagar, Khairtabad, Hyderabad, Telangana 500041, India",
+               "start_location" : 
+               {
+                  "lat" : 17.4150933,
+                  "lng" : 78.4658439
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "51 m",
+                        "value" : 51
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 59
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4148678,
+                        "lng" : 78.4662197
+                     },
+                     "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e toward \u003cb\u003ePV Narasimha Rao Marg\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ikhiBoj|}MAK@O?CBGDGBEFG@ABC@ABABADA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4150933,
+                        "lng" : 78.4658439
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.9 km",
+                        "value" : 876
+                     },
+                     "duration" : 
+                     {
+                        "text" : "12 mins",
+                        "value" : 709
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4105671,
+                        "lng" : 78.4715021
+                     },
+                     "html_instructions" : "Exit the roundabout onto \u003cb\u003eNTR Marg\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "}ihiB{l|}MXm@FQNo@Lm@ReADc@DcABo@?EB_@JyB@[@_@@EBc@Fk@Ho@BSDUP}@J_@L[FKHGFGLGLGn@MpAQFABAzBW`@GxDe@HAb@El@?\\?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4148678,
+                        "lng" : 78.4662197
+                     },
+                     "travel_mode" : "WALKING"
                   },
                   {
                      "distance" : 
                      {
                         "text" : "0.2 km",
-                        "value" : 203
+                        "value" : 230
                      },
                      "duration" : 
                      {
-                        "text" : "1 min",
-                        "value" : 30
+                        "text" : "3 mins",
+                        "value" : 190
                      },
                      "end_location" : 
                      {
-                        "lat" : 17.4070837,
-                        "lng" : 78.467708
+                        "lat" : 17.4106304,
+                        "lng" : 78.4733854
                      },
-                     "html_instructions" : "Merge onto \u003cb\u003eNH 44\u003c/b\u003e",
-                     "maneuver" : "merge",
-                     "polyline" : 
-                     {
-                        "points" : "w}fiBe`}}MAv@ADA\\?T@R@LBNHRDFFFHFd@d@j@p@XV"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4077956,
-                        "lng" : 78.4693132
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.3 km",
-                        "value" : 271
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 42
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4079099,
-                        "lng" : 78.46924919999999
-                     },
-                     "html_instructions" : "At \u003cb\u003eIqbal Minar Cir\u003c/b\u003e, take the \u003cb\u003e3rd\u003c/b\u003e exit and stay on \u003cb\u003eNH 44\u003c/b\u003e",
-                     "maneuver" : "roundabout-left",
-                     "polyline" : 
-                     {
-                        "points" : "gyfiBev|}M@?@@@?@@@?@@@??@@@@@@@?@@??@?@?@?@?@?@?@?@?@A@?@?@A@A@A@A?A@A?A?A@A?A?A?A?E@CAC?CCCAAC?AAA?A?AAA?A?A?A?A?A?A?A?AMSsA{AKMGMOa@AO?K@gA?o@"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4070837,
-                        "lng" : 78.467708
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.5 km",
-                        "value" : 471
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 80
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.408286,
-                        "lng" : 78.473654
-                     },
-                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eNH 44\u003c/b\u003e",
-                     "maneuver" : "keep-left",
-                     "polyline" : 
-                     {
-                        "points" : "m~fiBy_}}MB_B@sB?cBGgAGq@M_B_@kECSEa@I{A"
-                     },
-                     "start_location" : 
-                     {
-                        "lat" : 17.4079099,
-                        "lng" : 78.46924919999999
-                     },
-                     "travel_mode" : "DRIVING"
-                  },
-                  {
-                     "distance" : 
-                     {
-                        "text" : "0.2 km",
-                        "value" : 173
-                     },
-                     "duration" : 
-                     {
-                        "text" : "1 min",
-                        "value" : 40
-                     },
-                     "end_location" : 
-                     {
-                        "lat" : 17.4098163,
-                        "lng" : 78.47371389999999
-                     },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e after the lake (on the left)",
                      "maneuver" : "turn-left",
                      "polyline" : 
                      {
-                        "points" : "y`giBi{}}MK?oACMAA?MAQCmAOKAK?_AP"
+                        "points" : "aogiB{m}}MKYEEEI?CBQBOH_@DIDGDADABADCBCBC@CBC@I@G@G@I?G?IAG?GCKAICIEGEIEGGGIGCECEACACCIAE?EAC?E?E@GBK"
                      },
                      "start_location" : 
                      {
-                        "lat" : 17.408286,
-                        "lng" : 78.473654
+                        "lat" : 17.4105671,
+                        "lng" : 78.4715021
                      },
-                     "travel_mode" : "DRIVING"
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "16 m",
+                        "value" : 16
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 13
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4104966,
+                        "lng" : 78.4733365
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "mogiBuy}}MHBND"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4106304,
+                        "lng" : 78.4733854
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "55 m",
+                        "value" : 55
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 44
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 17.4101027,
+                        "lng" : 78.47364109999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "sngiBky}}MVWJIPMHEHCDA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 17.4104966,
+                        "lng" : 78.4733365
+                     },
+                     "travel_mode" : "WALKING"
                   }
                ],
                "traffic_speed_entry" : [],
@@ -1209,17 +1181,20 @@
          ],
          "overview_polyline" : 
          {
-            "points" : "mhgiBym}}MlEC@TM?}F@sC?eA?i@@a@HsANcHp@u@Lu@`@STOXYnAM|@SnBQzDGvBMlAO|@OtBD`AFFDJBNC\\OTQL[FQ?QEOKGIG[?CWIYOSIgAUm@G_@?g@D}@^eAp@uAfAe@P_@LUFa@@aBEwE_@i@?oALwE^kETg@B_@Jg@Po@`@o@p@Q\\c@xASl@]h@u@t@WRw@^aJpB_ATkANeFNs@?m@IsA[wAk@eAe@iBaAaCmAaBu@gE}Ba@SJOdAh@|CdB`FhClBbAdAb@nBr@f@Lj@Jt@@tEMhBUtKcCHLaJpB_ATkAN}AFgCFs@?m@IsA[wAk@eAe@iBaAaCmAaBu@kCwA_CoAuCaByAaAk@_@_EmBcB}@iA}@}@y@o@_Ae@iAg@aBO}@UkBs@gGOkCCwAJ{ATcBj@gB^{@t@mAnB_Cj@i@n@e@xAw@l@g@JYh@kCReA@kACkABY?uB?gADo@n@mE~AiIh@mCn@uDhAwEh@qAj@cAjB{B`DmD`D}CrAg@p@Od@Ef@An@B`@Dt@P|@}Dc@Me@I}D_@MfCLgCaDI?HAnBEzAVlA^M^Ol@Sj@Id@Cf@?l@DRBp@Pp@sCN}@|@^hCjAhCnApBfAv@ZpB`@|@mITcC@SfA|@|@x@`B`BvAnAb@XfBt@f@b@FPHfABx@Bj@LXXZrA^~A\\`Cn@zB`@|@Rl@R`@VNNThA?XIj@a@t@HRFHt@r@jDdCtFvDlA`AfBpArBnAxAiBJGKFyAhBbAv@hC|AlElCz@h@|@n@^aC\\eBv@cEd@mCJo@NFa@zCg@xByA|HEVr@h@TF^Xv@j@lAbAp@h@rBdArCxAl@f@XN`@Vb@\\`Ax@z@fAf@bANf@NhAVjD`@pEPfCFpBDdCCjBKfDAr@B`@Lb@LNn@l@dAhAB@HBDF@H?HEHGBG@I@OGEM?K?CaBoBS[Oa@AO@sABoC@wEOyBw@aJI{AK?}AEoBUWA_AP"
+            "points" : "migiB}s}}MSIIAQFWBKGQO]k@o@eABWl@m@ZSf@MjBWxBVN@zABQaCGa@Y}@M]a@e@[OCKAU@_@FKDGu@q@wA}@mBgAgCyAiAk@g@_@m@e@d@_Ab@oAiBM]Di@`@]ZUGaAs@}@o@{@i@mEmCiC}AcAw@xAiBJGKFyAhBsBoAgBqAmAaAuFwDkDeCq@m@KOISGLCUUe@}@sAmAaB[c@QOMIaAUy@U_@x@]f@CHcBcAwA}@eC{Ag@UgAYcBQ_G}@wAY}@YiAe@iDiB{CwAw@]o@Ok@MsBUsAKG~@EfADgAF_ArAJrBTj@LRFKh@w@hDyASe@Ek@A{@J}@XmAx@mAlAuBzByAvA[h@c@f@kAjBi@jAa@vAe@|BUtAeAnFcBlIi@lDEdAA`EExDE`@c@dCSn@KVg@j@aAz@k@n@gA~A{AzBqAjCoA~EQb@W@FdBHjAl@~EFl@X`C`@`BLGRb@p@rAVf@p@r@zAjAbCrAjCpAzBtA|Av@hAn@lAn@~CfBfExBjDhBfCdAt@TjATt@@jCInBGvBc@|D}@bDs@HLx@_@TSt@u@\\i@Rm@b@yAP]n@q@n@a@f@Q^Kf@CjEUvE_@nAMh@?vE^`BD`@ATG^Md@QtAgAdAq@|@_@f@E^?l@FfATRHXNVHAK@SHOPSNG`@_A\\}AReAJgBRoEHeBToBVsAX{@PSTO|@UxASzIgAl@GjA?Q_@EMFa@Ni@TMNOH]?c@Ig@Ya@SWGY?WBKHBNDVW\\WRIDA"
          },
-         "summary" : "NTR Marg",
-         "warnings" : [],
+         "summary" : "Lower Tank Bund Rd",
+         "warnings" : 
+         [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
          "waypoint_order" : 
          [
-            0,
-            1,
-            2,
+            4,
             3,
-            4
+            2,
+            1,
+            0
          ]
       }
    ],
