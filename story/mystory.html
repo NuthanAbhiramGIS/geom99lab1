@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Journey To Canada</title>
+
+    <style>
+        #map {
+               height: 100%;
+        }
+        
+        /* 
+         * Optional: Makes the sample page fill the window. 
+         */
+        html,
+        body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+        }
+        
+        h1 {
+            color: rgb(236, 240, 240);
+            font-size: 40px;
+            font-style: italic;
+            position: absolute;
+            top: 50%;
+            left: 45%;
+            transform: translate(-40%, -50%);
+        }
+
+        p {
+            color:rgb(238, 238, 233);
+            width: 80%;
+            position: absolute;
+            font-size: 25px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+        }
+
+        </style>
+
+
+    <script>
+async function initMap() {
+  // Request needed libraries.
+  const { Map, InfoWindow } = (await google.maps.importLibrary( 
+    "maps",
+  )) 
+  const { AdvancedMarkerElement, PinElement } =
+    (await google.maps.importLibrary("marker")) 
+
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 3,
+    gestureHandling: "none",
+    center: { lat: 0, lng: 360 },
+    mapTypeId: "satellite",
+    mapId: "4504f8b37365c3d0",
+  });
+  
+  // Set LatLng and title text for the markers. The first marker (Boynton Pass)
+  // receives the initial focus when tab is pressed. Use arrow keys to
+  // move between markers; press tab again to cycle through the map controls.
+  const tourStops = [
+    {
+      position: { lat: 17.24039649188634, lng: 78.4294280117241 },
+      title: "Rajiv Gandhi International Airport",
+    },
+   
+    {
+      position: { lat: 19.09040038044121, lng: 72.86287306942155},
+      title: "Chatrapathi Shivajo International Airport",
+    },
+    
+      {
+      position: { lat: 50.03823278917979, lng: 8.562147268517556},
+      title: "Frankfurt airport",
+    },
+   
+      {
+      position: { lat: 51.468098308434996, lng: -0.4550080872442224 },
+      title: "Heathrow International airport",
+    },
+    
+      {
+      position:  { lat: 43.677296461953354, lng: -79.6333566740741 },
+      title: "Toronto Pearson International airport",
+    },
+   
+  ];
+
+  // Create an info window to share between markers.
+  const infoWindow = new InfoWindow();
+
+  // Create the markers.
+  tourStops.forEach(({ position, title }, i) => {
+    const pin = new PinElement({
+      glyph: `${i + 1}`,
+    });
+
+    const marker = new AdvancedMarkerElement({
+      position,
+      map,
+      title: `${i + 1}. ${title}`,
+      content: pin.element,
+    });
+
+    // Add a click listener for each marker, and set up the info window.
+    marker.addListener("click", ({ domEvent, latLng }) => {
+      const { target } = domEvent;
+      infoWindow.close();
+      infoWindow.setContent(marker.title);
+      infoWindow.open(marker.map, marker);
+    });
+  });
+
+    
+
+     // Define a symbol using SVG path notation, with an opacity of 1.
+  const lineSymbol = {
+    path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+    strokeOpacity: 1,
+    scale: 3,
+    strokeColor: "red",
+  };
+
+  const line = new google.maps.Polyline({
+    path: [
+    { lat: 17.24039649188634, lng: 78.4294280117241 },
+    { lat: 19.09040038044121, lng: 72.86287306942155},
+    { lat: 50.03823278917979, lng: 8.562147268517556},
+    { lat: 51.468098308434996, lng: -0.4550080872442224 },
+    { lat: 43.677296461953354, lng: -79.6333566740741 },
+    ],
+    strokeOpacity: 1,
+    strokeColor: "white",
+
+    icons: [
+      {
+        icon: lineSymbol,
+        offset: "0",
+        repeat: "170px",
+
+      },
+    ],
+    map: map,
+  });
+  
+  const linePath = new google.maps.Polyline({
+    icons: [
+      {
+        icon: lineSymbol,
+
+      },
+    ],
+    map: map,
+  });
+
+  animateCircle(line);
+}
+function animateCircle(line) {
+  let count = 1;
+
+  window.setInterval(() => {
+    count = (count + 0.1) % 200;
+
+    const icons = line.get("icons");
+
+    icons[0].offset = count / 2 + "%";
+    line.set("icons", icons);
+  }, 10);
+  
+}
+initMap();
+
+</script>
+</head>
+<!-- <style>
+#map {
+       height: 100%;
+}
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+html,
+body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+}
+
+h1 {
+  color:brown;
+  text-align: center;
+  font-size: 200px;
+  position: absolute;
+}
+
+</style>
+</head> -->
+
+<body>
+        <div id="map"></div>
+        <!-- prettier-ignore -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE&callback=initMap&v=weekly" async>
+            </script>
+
+    <h1> From India to Canada </h1>
+    <p> On 3rd of September, 2024, I started my journey from INDIA to CANADA. My first stop was at Chatrapathi Shivaji International airport, Mumbai. I had a layover of 5 hours at Mumbai airport.
+        After submitting my documents, I boarded another flight to Frankfurt, Germany. I have landed in Germany airport on 4th Septemebr. The layover time here was 4 hours. I have border another flight to United Kindom, Heathrow Airport, London.
+        Layover time here was 6 hours and after this, I have boraded for a flight to Toronto Pearson Airport, Toronto, Canada. To reach Canada, I had to travel through 4 different countries and 5 airports. This was one of memorable
+        experiences in my life.
+    </p>
+
+  </body>
+</html>
