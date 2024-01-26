@@ -3,23 +3,23 @@
   <head>
     <title>Journey To Canada</title>
 
-    <style>
+    <style>                      /* This is the css section of the page that has been created */
         #map {
                height: 100%;
         }
         
-        /* 
-         * Optional: Makes the sample page fill the window. 
-         */
+       
         html,
         body {
                 height: 100%;
                 margin: 0;
                 padding: 0;
         }
+
         
-        h1 {
-            color: rgb(236, 240, 240);
+        
+        h1 {                               /* These elements are relted to first heading in the page and are inspired from w3 schools */
+            color: rgb(236, 240, 240);  
             font-size: 40px;
             font-style: italic;
             position: absolute;
@@ -28,7 +28,7 @@
             transform: translate(-40%, -50%);
         }
 
-        p {
+        p {                                  /* These elements are relted to paragaraph in the page and are inspired from w3 schools */
             color:rgb(238, 238, 233);
             width: 80%;
             position: absolute;
@@ -42,26 +42,26 @@
 
 
     <script>
-async function initMap() {
+async function initMap() {      
   // Request needed libraries.
-  const { Map, InfoWindow } = (await google.maps.importLibrary( 
+  const { Map, InfoWindow } = (await google.maps.importLibrary(   /* This is taken from js samples provided in github. This ccode is for showing information on the markers */
     "maps",
   )) 
-  const { AdvancedMarkerElement, PinElement } =
+  const { AdvancedMarkerElement, PinElement } =                       /* This is taken from js samples provided in github. This code is used to create markers */
     (await google.maps.importLibrary("marker")) 
 
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 3,
-    gestureHandling: "none",
+  const map = new google.maps.Map(document.getElementById("map"), {    /* This code is modified to show the world map accoordingly */
+    zoom: 3,                                                 /* As the zoom factor of the world map can be between 1-4, 3 has been used */
+    gestureHandling: "none",                                /* gesture control has been disabled so that zoom is not increased or decreased with the help of mouse */
     center: { lat: 0, lng: 360 },
     mapTypeId: "satellite",
     mapId: "4504f8b37365c3d0",
   });
   
-  // Set LatLng and title text for the markers. The first marker (Boynton Pass)
-  // receives the initial focus when tab is pressed. Use arrow keys to
-  // move between markers; press tab again to cycle through the map controls.
-  const tourStops = [
+   /* These define the position of the marker on the map */
+   /* The "title" is used to show the infromation on the marker */
+  
+  const tourStops = [                                                             
     {
       position: { lat: 17.24039649188634, lng: 78.4294280117241 },
       title: "Rajiv Gandhi International Airport",
@@ -74,7 +74,7 @@ async function initMap() {
     
       {
       position: { lat: 50.03823278917979, lng: 8.562147268517556},
-      title: "Frankfurt airport",
+      title: "Frankfurt International airport",
     },
    
       {
@@ -89,10 +89,10 @@ async function initMap() {
    
   ];
 
-  // Create an info window to share between markers.
-  const infoWindow = new InfoWindow();
+  /* This is the info window to share between markers */
+  const infoWindow = new InfoWindow();         
 
-  // Create the markers.
+  /* markers are created here */
   tourStops.forEach(({ position, title }, i) => {
     const pin = new PinElement({
       glyph: `${i + 1}`,
@@ -105,7 +105,7 @@ async function initMap() {
       content: pin.element,
     });
 
-    // Add a click listener for each marker, and set up the info window.
+    /* Add a click listener for each marker, and set up the info window. */
     marker.addListener("click", ({ domEvent, latLng }) => {
       const { target } = domEvent;
       infoWindow.close();
@@ -114,9 +114,7 @@ async function initMap() {
     });
   });
 
-    
-
-     // Define a symbol using SVG path notation, with an opacity of 1.
+  
   const lineSymbol = {
     path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
     strokeOpacity: 1,
@@ -124,6 +122,8 @@ async function initMap() {
     strokeColor: "red",
   };
 
+
+  /* These are the paths which are used to show the line on map*/
   const line = new google.maps.Polyline({
     path: [
     { lat: 17.24039649188634, lng: 78.4294280117241 },
@@ -156,7 +156,7 @@ async function initMap() {
     map: map,
   });
 
-  animateCircle(line);
+  animateCircle(line);                       /* This is the aniamtion part related to the movement of marker on the map*/
 }
 function animateCircle(line) {
   let count = 1;
@@ -175,34 +175,12 @@ initMap();
 
 </script>
 </head>
-<!-- <style>
-#map {
-       height: 100%;
-}
 
-/* 
- * Optional: Makes the sample page fill the window. 
- */
-html,
-body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-}
 
-h1 {
-  color:brown;
-  text-align: center;
-  font-size: 200px;
-  position: absolute;
-}
-
-</style>
-</head> -->
-
+<!----Html section of the code starts here ------> 
 <body>
         <div id="map"></div>
-        <!-- prettier-ignore -->
+        <!-- This is the link to add script -->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE&callback=initMap&v=weekly" async>
             </script>
 
